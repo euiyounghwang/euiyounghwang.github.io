@@ -1,5 +1,7 @@
 # euiyounghwang.github.io
 
+### Euiyoung Hwang (marieuig@gmail.com) / Linkedin(https://www.linkedin.com/in/euiyoung-hwang/) : Search, Data & AI Software Engineer
+
 I have ten years of experience in working with a modern search platform (Elasticsearch) and in building data pipelines(e.g https://github.com/euiyounghwang/python-search) & rest api services around it as a search engineer/senior software engineer. 
 Especially, I am an expert in the Search Engine with a bunch of api from elasticsearch and rest_api environment using python flask, fastapi, docker … because I handled the entire version of ES from 1.7 up to 7.9 V.
 
