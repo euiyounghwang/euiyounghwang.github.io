@@ -2,8 +2,8 @@
 
 #### Euiyoung Hwang (marieuig@gmail.com) / Linkedin(https://www.linkedin.com/in/euiyoung-hwang/) : Search, Data & AI Software Engineer
 
-- __Tools (Pycharm, Eclipse, Postman, VS Code, ELK, Jupyter, Databricks, Datadog, Grafana, Bonsai for Elasticsearch Cluster, Jira/Confluence)__
-- __Environment (Vagrant, Conda, Docker&Docker-Compose, Poetry, Github, CircleCI, AWS)__
+- __<i>Tools (Pycharm, Eclipse, Postman, VS Code, ELK, Jupyter, Databricks, Datadog, Grafana, Bonsai for Elasticsearch Cluster, Jira/Confluence)</i>__
+- __<i>Environment (Vagrant, Conda, Docker&Docker-Compose, Poetry, Github, CircleCI, AWS)</i>__
 - Programming (Python, Java, Flask, Flask/Rest-Flask:https://github.com/euiyounghwang/python-fastapi-vector-search, https://github.com/euiyounghwang/python-flask-connexion-example-openapi3-master, Elasticsearch API, Databricks notebook, Google colab for implementation/testing AI model)
 - Research, Develop and Deploy from Elasticsearch v1.7.3 ~ v7.9.X (Design, Develop and Deploy an  Elasticsearch Cluster between WAS and Data Feed application with DB and Documentum server for 7 years)
 - Interested with Elasticsearch v8 new features with Vectorized Search (https://github.com/euiyounghwang/semantic-search-elasticsearch-openai-langchain)
@@ -19,7 +19,7 @@ Especially, I am an expert in the Search Engine with a bunch of api from elastic
 
 In particular, I remember developing the elasticsearch search system for 7 years in South Korea and having a success story interview at the elastic on seoul conference(https://www.youtube.com/watch?v=qu0IXwi3Fq0). At that time, I participated in the Google search engine replacement project as project leader and senior software engineer. 
 
-The screenshots attached below are for __the Success Story with Elasticsearch Interview, Elastic on Seoul Conference, 2018__ (https://www.elastic.co/customers/posco)
+The screenshots attached below are for __<i>the Success Story with Elasticsearch Interview, Elastic on Seoul Conference, 2018</i>__ (https://www.elastic.co/customers/posco)
 when i worked as Senior Software Engineer & Search/Data Engineer at POSC ICT, South Korea 
 
 - Handle with Elasticsearch 1.7.3 ~ 7.9.0 (Implement search service on entire version of Elaticsearch)
