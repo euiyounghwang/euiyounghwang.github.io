@@ -2,6 +2,18 @@
 
 ### Euiyoung Hwang (marieuig@gmail.com) / Linkedin(https://www.linkedin.com/in/euiyoung-hwang/) : Search, Data & AI Software Engineer
 
+- Tools (Pycharm, Eclipse, Postman, VS Code, ELK, Jupyter, Databricks, Datadog, Grafana, Bonsai for Elasticsearch Cluster, Jira/Confluence)
+- Environment (Vagrant, Conda, Docker, Poetry, Github, CircleCI, AWS)
+- Programming (Python, Java, Flask, Flask/Rest-Flask, Elasticsearch API, Databricks notebook, Google colab for implementation/testing AI model)
+- Research, Develop and Deploy from Elasticsearch v1.7.3 ~ v7.9.X (Design, Develop and Deploy an  Elasticsearch Cluster between WAS and Data Feed application with DB and Documentum server for 7 years)
+- Interested with Elasticsearch v8 new features with Vectorized Search
+- Elasticsearch 1’st Deploy & Go Live Expert (Production : Elasticsearch Cluster with 24 Nodes, Log Cluster with 8 Nodes)  in South Korea
+- Search (Elasticsearch, Google Search Appliance) with Cluster, Design Index for Search, Restful  API, Analyzer and Data Migration)
+- Big Data Analysis (Elasticsearch, Logstash, Beat, Redis, MongoDB, SQL)
+- Machine Learning with Scikit-Learn, NumPy, Pandas, Doc2Vec, Wor2vec, FastText and Tensorflow (distilbert), Keras, Text-Mining and NLP(Natural Language Processing) with Python v 3.5 ~
+- Restful API (Socket, HTTP WebService with JSON based on Rest-Flask, Spring Boot Controller, Swagger UI API)
+- Research new Technology for AI & Big Data (Jupyter with Anaconda)
+
 I have ten years of experience in working with a modern search platform (Elasticsearch) and in building data pipelines(e.g https://github.com/euiyounghwang/python-search) & rest api services around it as a search engineer/senior software engineer. 
 Especially, I am an expert in the Search Engine with a bunch of api from elasticsearch and rest_api environment using python flask, fastapi, docker … because I handled the entire version of ES from 1.7 up to 7.9 V.
 
