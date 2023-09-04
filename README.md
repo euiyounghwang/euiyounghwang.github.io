@@ -131,4 +131,30 @@ es_index_indexing_delete_current_number{cluster="es-docker-cluster",index="test_
 #### <i>Python Webservice monitoring</i>
 - Add prometheus library to track all endpoint using prometheus-flask-exporter
 - Monitoring Httprequest response, status of requests and so on
+```
+ http://localhost:8081/metrics
+ ...
+# TYPE flask_exporter_info gauge
+flask_exporter_info{version="0.22.4"} 1.0
+# HELP flask_http_request_duration_seconds Flask HTTP request duration in seconds
+# TYPE flask_http_request_duration_seconds histogram
+flask_http_request_duration_seconds_bucket{le="0.005",method="POST",path="/v1/basic/search",status="200"} 0.0
+flask_http_request_duration_seconds_bucket{le="0.01",method="POST",path="/v1/basic/search",status="200"} 0.0
+flask_http_request_duration_seconds_bucket{le="0.025",method="POST",path="/v1/basic/search",status="200"} 0.0
+flask_http_request_duration_seconds_bucket{le="0.05",method="POST",path="/v1/basic/search",status="200"} 0.0
+flask_http_request_duration_seconds_bucket{le="0.075",method="POST",path="/v1/basic/search",status="200"} 0.0
+flask_http_request_duration_seconds_bucket{le="0.1",method="POST",path="/v1/basic/search",status="200"} 0.0
+flask_http_request_duration_seconds_bucket{le="0.25",method="POST",path="/v1/basic/search",status="200"} 1.0
+flask_http_request_duration_seconds_bucket{le="0.5",method="POST",path="/v1/basic/search",status="200"} 1.0
+flask_http_request_duration_seconds_bucket{le="0.75",method="POST",path="/v1/basic/search",status="200"} 1.0
+flask_http_request_duration_seconds_bucket{le="1.0",method="POST",path="/v1/basic/search",status="200"} 1.0
+flask_http_request_duration_seconds_bucket{le="2.5",method="POST",path="/v1/basic/search",status="200"} 1.0
+flask_http_request_duration_seconds_bucket{le="5.0",method="POST",path="/v1/basic/search",status="200"} 1.0
+flask_http_request_duration_seconds_bucket{le="7.5",method="POST",path="/v1/basic/search",status="200"} 1.0
+flask_http_request_duration_seconds_bucket{le="10.0",method="POST",path="/v1/basic/search",status="200"} 1.0
+flask_http_request_duration_seconds_bucket{le="+Inf",method="POST",path="/v1/basic/search",status="200"} 1.0
+flask_http_request_duration_seconds_count{method="POST",path="/v1/basic/search",status="200"} 1.0
+flask_http_request_duration_seconds_sum{method="POST",path="/v1/basic/search",status="200"} 0.11475991699990118
+...
+```
 ![Alt text](image-3.png)
