@@ -101,6 +101,32 @@ Recently, I have been researching & implementing for search engine cluster monit
 ![Alt text](image-2.png)
 #### <i>Elasticsearch Cluster monitoring</i>
 - Monitoring all nodes in the cluster after creating the metrics from elasticsearch_exporter docker instance
+```
+ elasticsearch_exporter
+ ...
+# HELP es_jvm_mem_heap_max_bytes Maximum used memory in heap
+# TYPE es_jvm_mem_heap_max_bytes gauge
+es_jvm_mem_heap_max_bytes{cluster="es-docker-cluster",node="es01",nodeid="ENbXGy5ASPevQ3A5MPnZJg",} 1.073741824E9
+# HELP es_index_indexing_delete_current_number Current rate of documents deleted
+# TYPE es_index_indexing_delete_current_number gauge
+es_index_indexing_delete_current_number{cluster="es-docker-cluster",index=".kibana_1",context="total",} 0.0
+es_index_indexing_delete_current_number{cluster="es-docker-cluster",index=".security-7",context="total",} 0.0
+es_index_indexing_delete_current_number{cluster="es-docker-cluster",index=".apm-custom-link",context="primaries",} 0.0
+es_index_indexing_delete_current_number{cluster="es-docker-cluster",index=".security-7",context="primaries",} 0.0
+es_index_indexing_delete_current_number{cluster="es-docker-cluster",index=".kibana_task_manager_1",context="primaries",} 0.0
+es_index_indexing_delete_current_number{cluster="es-docker-cluster",index="test_omnisearch_v2",context="total",} 0.0
+es_index_indexing_delete_current_number{cluster="es-docker-cluster",index=".kibana_1",context="primaries",} 0.0
+es_index_indexing_delete_current_number{cluster="es-docker-cluster",index=".kibana-event-log-7.9.0-000001",context="primaries",} 0.0
+es_index_indexing_delete_current_number{cluster="es-docker-cluster",index=".apm-agent-configuration",context="total",} 0.0
+es_index_indexing_delete_current_number{cluster="es-docker-cluster",index=".apm-custom-link",context="total",} 0.0
+es_index_indexing_delete_current_number{cluster="es-docker-cluster",index=".kibana-event-log-7.9.0-000001",context="total",} 0.0
+es_index_indexing_delete_current_number{cluster="es-docker-cluster",index=".apm-agent-configuration",context="primaries",} 0.0
+es_index_indexing_delete_current_number{cluster="es-docker-cluster",index=".kibana_task_manager_1",context="total",} 0.0
+es_index_indexing_delete_current_number{cluster="es-docker-cluster",index="test_omnisearch_v2",context="primaries",} 0.0
+# HELP es_index_recovery_current_number Current number of recoveries
+...
+```
+
 ![Alt text](image-4.png)
 #### <i>Python Webservice monitoring</i>
 - Add prometheus library to track all endpoint using prometheus-flask-exporter
