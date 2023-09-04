@@ -42,28 +42,7 @@ Recently, I am personally implementing to rest-api endpoint as test project usin
 ```
 components:
   schemas:
-    Item:
-      type: object
-      properties:
-        id:
-          type: integer
-          format: int64
-        name:
-          type: string
-        price:
-          type: number
-    User:
-      type: object
-      properties:
-        seq:
-          type: integer
-          format: int64
-        id:
-          type: string
-          description: The user ID.
-        name:
-          type: string
-          description: The user name.
+    ..
     Search:
       type: object
       properties:
@@ -99,6 +78,7 @@ components:
            items:
             type: string
            default: ["*"]
+    ..
 ```
 ![Alt text](image.png)
 
