@@ -129,7 +129,7 @@ es_index_indexing_delete_current_number{cluster="es-docker-cluster",index="test_
 
 ![Alt text](image-4.png)
 #### <i>Python Webservice monitoring</i>
-- Add prometheus library to track all endpoint using prometheus-flask-exporter
+- Add prometheus library (https://pypi.org/project/prometheus-flask-exporter/) to track all endpoint into python-flask code using prometheus-flask-exporter
 - Monitoring Httprequest response, status of requests and so on
 ```
  http://localhost:8081/metrics
