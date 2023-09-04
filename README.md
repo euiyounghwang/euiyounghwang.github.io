@@ -103,7 +103,6 @@ Recently, I have been researching & implementing for search engine cluster monit
 - Monitoring all nodes in the cluster after creating the metrics from elasticsearch_exporter docker instance
 - See the metrics using elasticsearch exporter plugin after installing the library (http://localhost:9200/_prometheus/metrics)
  ![Alt text](image-8.png)
-
 ```
  elasticsearch_exporter
  ...
