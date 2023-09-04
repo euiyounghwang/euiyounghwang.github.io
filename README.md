@@ -10,16 +10,16 @@
 - Interested with Elasticsearch v8 new features with Vectorized Search (https://github.com/euiyounghwang/semantic-search-elasticsearch-openai-langchain)
 - Elasticsearch 1’st Deploy & Go Live Expert (Production : Elasticsearch Cluster with 24 Nodes, Log Cluster with 8 Nodes)  in South Korea (https://www.elastic.co/customers/posco)
 - Search (Elasticsearch, Google Search Appliance) with Cluster, Design Index for Search, Restful API, Analyzer and Data Migration)
-- Big Data Analysis (Elasticsearch, Logstash, Beat, Redis, MongoDB, SQL)
+- Big Data Analysis (Elasticsearch, Logstash, Beat, Redis, MongoDB, NoSQL)
 - Machine Learning with Scikit-Learn, NumPy, Pandas, Doc2Vec, Wor2vec, FastText and Tensorflow (distilbert), Keras, Text-Mining and NLP(Natural Language Processing) with Python v 3.5 ~
 - Restful API (Socket, HTTP WebService with JSON based on Rest-Flask, Spring Boot Controller, Swagger UI API)
 - Research new Technology for AI & Big Data (Jupyter with Anaconda)
 - Project Leader & AI Engineer to <i>AI POS-ComplAi Project with AI Model based on Supervised Machine Learning Model</i> (News: http://bit.ly/2Ojc7Ij, https://www.donga.com/news/Economy/article/all/20200204/99522285/1, It requires to translate in English) in South Korea
 
 I have ten years of experience in working with a modern search platform (Elasticsearch) and in building data pipelines(e.g https://github.com/euiyounghwang/python-search) & rest api services around it as a search engineer/senior software engineer. 
-<i>Especially, I am an expert in the Search Engine with a bunch of api from elasticsearch and rest_api environment using python flask, fastapi, docker … because I handled the entire version of ES from 1.7 up to 7.9 V.</i>
+<i>Especially, I am an expert in the Search Engine with a bunch of api from elasticsearch and rest_api environment using python flask, fastapi, docker … because I handled the entire version of ES from 1.7 up to 7.9 V. such as building ES cluster, handling index mappings with a lof of analyzers, resolving complex query based on domain needs, ILM configuration and so on</i>
 
-In particular, I remember developing the elasticsearch search system for 7 years in South Korea and having a success story interview at the elastic on seoul conference(https://www.youtube.com/watch?v=qu0IXwi3Fq0). At that time, I participated in the Google search engine replacement project as project leader and senior software engineer. 
+In particular, I remember that I have built and implemted for Enterprise Search Services for 7 years in South Korea and having a success story interview at the elastic on seoul conference(https://www.youtube.com/watch?v=qu0IXwi3Fq0). At that time, I participated in the Google search engine replacement project as project leader and senior software engineer. 
 
 The screenshots attached below are for __<i>the Success Story with Elasticsearch Interview, Elastic on Seoul Conference, 2018</i>__ (https://www.elastic.co/customers/posco)
 when i worked as Senior Software Engineer & Search/Data Engineer at POSC ICT, South Korea 
@@ -27,8 +27,8 @@ when i worked as Senior Software Engineer & Search/Data Engineer at POSC ICT, So
 ![Alt text](image-6.png)
 
 - Handle with Elasticsearch 1.7.3 ~ 7.9.0 (Implement search service on entire version of Elaticsearch)
-- 1'st Develop & Deploy the Elasticsearch with 24 Nodes (3 Masters. 2 clients, 19 Data Nodes) in South Korea - Monitoring with Spring Boot (https://github.com/euiyounghwang/Spring_Boot_Monitoring)
-- Korean Analyzer called Nori developed from elastic after our requests and find analyzer bug such as Korean Arirang, Mecab)
+- 1'st Develop & Deploy the Elasticsearch with 24 Nodes (3 Masters. 2 clients, 19 Data Nodes) in South Korea - Monitoring with Spring Boot (https://github.com/euiyounghwang/Spring_Boot_Monitoring) instead of cerebro
+- Korean Analyzer called Analysis-Nori(https://www.elastic.co/guide/en/elasticsearch/plugins/current/analysis-nori.html) developed from elastic after our requests because we have an issue on custom Korean Arirang, Mecab analyzers: I found the big issue on memory issue in the cluster)
 - Design & Create Index about more than 4,000 index with settings & mappings and index template for the client requirements
 - Proper query implementation with Query DSL on Elasticsearch Cluster (https://github.com/euiyounghwang/GitHub_Guide)
 - Improve search relevance for client requirements with ranking weight
@@ -40,7 +40,7 @@ if you want to watch the video, please go to this url (https://www.youtube.com/w
 
 ![Alt text](image-5.png)
 
-Recently, I am personally implementing to rest-api endpoint as test project using python, flask/fastapi(https://github.com/euiyounghwang/python-fastapi-vector-search, https://github.com/euiyounghwang/python-flask-connexion-example-openapi3-master), and nestjs(https://github.com/euiyounghwang/nest-js-rest-api) based restapi. A search engine (elasticsearch) and Postgres were used. It is also implemented based on Docker, and is being built, executed, and tested. Also I am interested with similary search such as huggingface embedding, vectorized search using Faiss and so on. (https://github.com/euiyounghwang/semantic-search-elasticsearch-openai-langchain)
+Recently, I am personally implementing to Rest-Api Endpoint as test projects using python, flask/fastapi(https://github.com/euiyounghwang/python-fastapi-vector-search, https://github.com/euiyounghwang/python-flask-connexion-example-openapi3-master), and nestjs(https://github.com/euiyounghwang/nest-js-rest-api). The service support to search from a search engine (elasticsearch) and Postgres. It is also implemented based on Docker, and is being built, executed, and tested. Also I am interested with similary search such as huggingface embedding, vectorized search using Faiss and so on. (https://github.com/euiyounghwang/semantic-search-elasticsearch-openai-langchain)
 
 #### <i>Rest-API on OPEN API Specifiation(Swagger)</i>
 ```
@@ -92,8 +92,12 @@ components:
 Recently, I have been researching & implementing for search engine cluster monitoring and web application monitoring. In other words, we are testing to monitor search engines and restapi endpoints using prometheus and grafana. Elasticsearch Prometheus Exporter is a builtin exporter from Elasticsearch to Prometheus. It collects all relevant metrics and makes them available to Prometheus via the Elasticsearch REST API. This is an open source project - Cluster status, Node Status such as JVM, Indices, Circuit Breaker : the feature to prevent OOM occurrence
 
 #### <i>Prometheus (Build Docker on my local environment with Elasticsearch-Exporter Plugin)</i>
+- Monitoring all nodes in the cluster after installing prometheus-elasticsearch-exporter per each node
 ![Alt text](image-2.png)
 #### <i>Elasticsearch Cluster monitoring</i>
+- Monitoring all nodes in the cluster after creating the metrics from elasticsearch_exporter docker instance
 ![Alt text](image-4.png)
 #### <i>Python Webservice monitoring</i>
+- Add prometheus library to track all endpoint using prometheus-flask-exporter
+- Monitoring Httprequest response, status of requests and so on
 ![Alt text](image-3.png)
