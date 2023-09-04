@@ -3,7 +3,7 @@
 ### Euiyoung Hwang (marieuig@gmail.com) / Linkedin(https://www.linkedin.com/in/euiyoung-hwang/) : Search, Data & AI Software Engineer
 
 - Tools (Pycharm, Eclipse, Postman, VS Code, ELK, Jupyter, Databricks, Datadog, Grafana, Bonsai for Elasticsearch Cluster, Jira/Confluence)
-- Environment (Vagrant, Conda, Docker, Poetry, Github, CircleCI, AWS)
+- Environment (Vagrant, Conda, Docker&Docker-Compose, Poetry, Github, CircleCI, AWS)
 - Programming (Python, Java, Flask, Flask/Rest-Flask, Elasticsearch API, Databricks notebook, Google colab for implementation/testing AI model)
 - Research, Develop and Deploy from Elasticsearch v1.7.3 ~ v7.9.X (Design, Develop and Deploy an  Elasticsearch Cluster between WAS and Data Feed application with DB and Documentum server for 7 years)
 - Interested with Elasticsearch v8 new features with Vectorized Search
@@ -38,7 +38,7 @@ if you want to watch the video, please go to this url (https://www.youtube.com/w
 
 Recently, I am personally implementing to rest-api endpoint as test project using python, flask/fast(https://github.com/euiyounghwang/python-fastapi-vector-search, https://github.com/euiyounghwang/python-flask-connexion-example-openapi3-master), and nestjs(https://github.com/euiyounghwang/nest-js-rest-api) based restapi. A search engine (elasticsearch) and Postgres were used. It is also implemented based on Docker, and is being built, executed, and tested. Also I am interested with similary search such as huggingface embedding, vectorized search using Faiss and so on. (https://github.com/euiyounghwang/semantic-search-elasticsearch-openai-langchain)
 
-### Rest-API on OPENAPI Specifiation(Swagger)
+### Rest-API on OPEN API Specifiation(Swagger)
 ![Alt text](image.png)
 
 ### Docker in my local Environment
