@@ -23,12 +23,12 @@ The screenshots attached below are for the Success Story with Elasticsearch Inte
 when i worked as Senior Software Engineer & Search/Data Engineer at POSC ICT, South Korea 
 
 - Handle with Elasticsearch 1.7.3 ~ 7.9.0 (Implement search service on entire version of Elaticsearch)
-- 1'st Develop & Deploy the Elasticsearch with 24 Nodes (3 Masters. 2 clients, 19 Data Nodes) in South Korea
+- 1'st Develop & Deploy the Elasticsearch with 24 Nodes (3 Masters. 2 clients, 19 Data Nodes) in South Korea - Monitoring with Spring Boot (https://github.com/euiyounghwang/Spring_Boot_Monitoring)
 - Korean Analyzer called Nori developed from elastic after our requests and find analyzer bug such as Korean Arirang, Mecab)
 - Design & Create Index about more than 4,000 index with settings & mappings and index template for the client requirements
-- Proper query implementation with Query DSL on Elasticsearch Cluster
+- Proper query implementation with Query DSL on Elasticsearch Cluster (https://github.com/euiyounghwang/GitHub_Guide)
 - Improve search relevance for client requirements with ranking weight
-- Design & Develop a novel java library based on Apache Tika to extract full text from various of documents such as MS-OFFICE, HWP, PDF and Text Format 
+- Design & Develop a novel java library based on Apache Tika to extract full text from various of documents such as MS-OFFICE, HWP, PDF and Text Format (https://github.com/euiyounghwang/ES_Python_Project, https://github.com/euiyounghwang/DocumentsTextExtract)
  (Import java library into Python Environment for amounts of unstructured text indexing into ES cluster)
 
 if you want to watch the video, please go to this url (https://www.youtube.com/watch?v=qu0IXwi3Fq0) after set subtitled to English
