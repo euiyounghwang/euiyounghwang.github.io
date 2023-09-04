@@ -3,7 +3,7 @@
 #### Euiyoung Hwang (marieuig@gmail.com) / Linkedin(https://www.linkedin.com/in/euiyoung-hwang/) : Search, Data & AI Software Engineer
 
 - __<i>Tools (Pycharm, Eclipse, Postman, VS Code, ELK, Jupyter, Databricks, Datadog, Grafana, Cerebro, Prometheus, Bonsai for Elasticsearch Cluster, Jira/Confluence)</i>__
-- __<i>Environment (Vagrant, Conda, Docker&Docker-Compose, Poetry, Github, CircleCI, AWS)</i>__
+- __<i>Environment (Vagrant, Anaconda/Miniconda, Python VirtualEnv/.venv, Docker&Docker-Compose, Poetry, Github, CircleCI, AWS)</i>__
 - Programming (Python, Java, Flask, Flask/Rest-Flask/Fastapi:https://github.com/euiyounghwang/python-fastapi-vector-search, Flask-Connexion(https://github.com/euiyounghwang/python-flask-connexion-example-openapi3-master), Elasticsearch API, Databricks notebook, Google colab for implementation/testing AI model)
 - Research, Develop and Deploy from Elasticsearch v1.7.3 ~ v7.9.X (Design, Develop and Deploy an  Elasticsearch Cluster between WAS and Data Feed application with DB and Documentum server for 7 years)
 - Interested with Elasticsearch v8 new features with Vectorized Search (https://github.com/euiyounghwang/semantic-search-elasticsearch-openai-langchain)
