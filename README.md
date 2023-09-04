@@ -97,7 +97,7 @@ components:
 Recently, I have been researching & implementing for search engine cluster monitoring and web application monitoring. In other words, we are testing to monitor search engines and restapi endpoints using prometheus and grafana. Elasticsearch Prometheus Exporter is a builtin exporter from Elasticsearch to Prometheus. It collects all relevant metrics and makes them available to Prometheus via the Elasticsearch REST API. This is an open source project - Cluster status, Node Status such as JVM, Indices, Circuit Breaker : the feature to prevent OOM occurrence
 
 #### <i>Prometheus (Build Docker on my local environment with Elasticsearch-Exporter Plugin)</i>
-- Monitoring all nodes in the cluster after installing prometheus-elasticsearch-exporter per each node
+- Monitoring all nodes in the cluster after installing prometheus-elasticsearch-exporter per each node (http://localhost:9191/targets?search=)
 ![Alt text](image-2.png)
 #### <i>Elasticsearch Cluster monitoring</i>
 - Monitoring all nodes in the cluster after creating the metrics from elasticsearch_exporter docker instance
