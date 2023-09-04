@@ -104,7 +104,7 @@ Recently, I have been researching & implementing for search engine cluster monit
 - See the metrics using elasticsearch exporter plugin after installing the library (http://localhost:9200/_prometheus/metrics)
  ![Alt text](image-8.png)
 ```
- elasticsearch_exporter
+ elasticsearch_exporter plugin
  ...
 # HELP es_jvm_mem_heap_max_bytes Maximum used memory in heap
 # TYPE es_jvm_mem_heap_max_bytes gauge
