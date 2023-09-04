@@ -39,6 +39,67 @@ if you want to watch the video, please go to this url (https://www.youtube.com/w
 Recently, I am personally implementing to rest-api endpoint as test project using python, flask/fastapi(https://github.com/euiyounghwang/python-fastapi-vector-search, https://github.com/euiyounghwang/python-flask-connexion-example-openapi3-master), and nestjs(https://github.com/euiyounghwang/nest-js-rest-api) based restapi. A search engine (elasticsearch) and Postgres were used. It is also implemented based on Docker, and is being built, executed, and tested. Also I am interested with similary search such as huggingface embedding, vectorized search using Faiss and so on. (https://github.com/euiyounghwang/semantic-search-elasticsearch-openai-langchain)
 
 #### Rest-API on OPEN API Specifiation(Swagger)
+```
+components:
+  schemas:
+    Item:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+        name:
+          type: string
+        price:
+          type: number
+    User:
+      type: object
+      properties:
+        seq:
+          type: integer
+          format: int64
+        id:
+          type: string
+          description: The user ID.
+        name:
+          type: string
+          description: The user name.
+    Search:
+      type: object
+      properties:
+        query_string:
+          type: string
+          description: Full text search
+          default: "Cryptocurrency"
+          nullable: true
+        start_date:
+          type: string
+          format: date
+          description: Start date
+          default: "2021 01-01 00:00:00"
+        size:
+          type: integer
+          description: The number of size
+          default: 20
+        sort_order:
+          type: string
+          enum:
+            - DESC
+            - ASC
+        include_basic_aggs:
+          type: boolean
+          description: Flag to enable/disabled aggregations which can slow down queries
+        pit_id:
+          type: string
+          format: date
+          description: pit_id
+          example: ""
+        ids_filter:
+           type: array
+           items:
+            type: string
+           default: ["*"]
+```
 ![Alt text](image.png)
 
 #### Docker in my local Environment
