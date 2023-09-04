@@ -23,6 +23,8 @@ In particular, I remember developing the elasticsearch search system for 7 years
 The screenshots attached below are for __<i>the Success Story with Elasticsearch Interview, Elastic on Seoul Conference, 2018</i>__ (https://www.elastic.co/customers/posco)
 when i worked as Senior Software Engineer & Search/Data Engineer at POSC ICT, South Korea 
 
+![Alt text](image-6.png)
+
 - Handle with Elasticsearch 1.7.3 ~ 7.9.0 (Implement search service on entire version of Elaticsearch)
 - 1'st Develop & Deploy the Elasticsearch with 24 Nodes (3 Masters. 2 clients, 19 Data Nodes) in South Korea - Monitoring with Spring Boot (https://github.com/euiyounghwang/Spring_Boot_Monitoring)
 - Korean Analyzer called Nori developed from elastic after our requests and find analyzer bug such as Korean Arirang, Mecab)
