@@ -1,6 +1,6 @@
 # euiyounghwang.github.io
 
-### Euiyoung Hwang (marieuig@gmail.com) / Linkedin(https://www.linkedin.com/in/euiyoung-hwang/) : Search, Data & AI Software Engineer
+#### Euiyoung Hwang (marieuig@gmail.com) / Linkedin(https://www.linkedin.com/in/euiyoung-hwang/) : Search, Data & AI Software Engineer
 
 - Tools (Pycharm, Eclipse, Postman, VS Code, ELK, Jupyter, Databricks, Datadog, Grafana, Bonsai for Elasticsearch Cluster, Jira/Confluence)
 - Environment (Vagrant, Conda, Docker&Docker-Compose, Poetry, Github, CircleCI, AWS)
@@ -38,17 +38,17 @@ if you want to watch the video, please go to this url (https://www.youtube.com/w
 
 Recently, I am personally implementing to rest-api endpoint as test project using python, flask/fast(https://github.com/euiyounghwang/python-fastapi-vector-search, https://github.com/euiyounghwang/python-flask-connexion-example-openapi3-master), and nestjs(https://github.com/euiyounghwang/nest-js-rest-api) based restapi. A search engine (elasticsearch) and Postgres were used. It is also implemented based on Docker, and is being built, executed, and tested. Also I am interested with similary search such as huggingface embedding, vectorized search using Faiss and so on. (https://github.com/euiyounghwang/semantic-search-elasticsearch-openai-langchain)
 
-### Rest-API on OPEN API Specifiation(Swagger)
+#### Rest-API on OPEN API Specifiation(Swagger)
 ![Alt text](image.png)
 
-### Docker in my local Environment
+#### Docker in my local Environment
 ![Alt text](image-1.png)
 
 Recently, I have been researching & implementing for search engine cluster monitoring and web application monitoring. In other words, we are testing to monitor search engines and restapi endpoints using prometheus and grafana. Elasticsearch Prometheus Exporter is a builtin exporter from Elasticsearch to Prometheus. It collects all relevant metrics and makes them available to Prometheus via the Elasticsearch REST API. This is an open source project - Cluster status, Node Status such as JVM, Indices, Circuit Breaker : the feature to prevent OOM occurrence
 
-### Prometheus (Build Docker on my local environment with Elasticsearch-Exporter Plugin)
+#### Prometheus (Build Docker on my local environment with Elasticsearch-Exporter Plugin)
 ![Alt text](image-2.png)
-### Elasticsearch Cluster monitoring
+#### Elasticsearch Cluster monitoring
 ![Alt text](image-4.png)
-### Python Webservice monitoring
+#### Python Webservice monitoring
 ![Alt text](image-3.png)
