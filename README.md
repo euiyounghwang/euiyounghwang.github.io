@@ -27,13 +27,13 @@ In FiscalNote (2022.07 ~ 2023.07), I contributed  to improve search relevance wi
 In particular, I remember that I have built and implemented for Enterprise Search Services for 7 years in South Korea and having a success story interview at the elastic on seoul conference(https://www.youtube.com/watch?v=qu0IXwi3Fq0). At that time, I participated in the Google search engine replacement project(https://www.linkedin.com/pulse/elastic-tour-seoul-posco-ict-euiyoung-hwang/) as project leader and senior software engineer. 
 
 The screenshots attached below are for __<i>the Success Story with Elasticsearch Interview, Elastic on Seoul Conference, 2018</i>__ (https://www.elastic.co/customers/posco)
-when i worked as Senior Software Engineer & Search/Data Engineer at POSC ICT, South Korea (Receive an award in POST ICT, 2016, https://media.licdn.com/dms/image/C512DAQGqaGMRMAXk9w/profile-treasury-image-shrink_1920_1920/0/1597560813194?e=1694487600&v=beta&t=sYbj3Kip8j_opHS_GB2ECOQ0FVhoiv16Jgsb2dxHp1M )
+when i worked as Senior Software Engineer & Search/Data Engineer at POSC ICT, South Korea (Receive an award in POST ICT, 2016, https://media.licdn.com/dms/image/C512DAQGqaGMRMAXk9w/profile-treasury-image-shrink_1920_1920/0/1597560813194?e=1694487600&v=beta&t=sYbj3Kip8j_opHS_GB2ECOQ0FVhoiv16Jgsb2dxHp1M)
 
 ![Alt text](image-6.png)
 
 - Handle with Elasticsearch 1.7.3 ~ 7.9.0 (Implement search service on entire version of Elaticsearch)
 - 1'st Develop & Deploy the Elasticsearch with 24 Nodes (3 Masters. 2 clients, 19 Data Nodes) in South Korea - Monitoring with Spring Boot (https://github.com/euiyounghwang/Spring_Boot_Monitoring) instead of cerebro
-- Korean Analyzer called Analysis-Nori(https://www.elastic.co/guide/en/elasticsearch/plugins/current/analysis-nori.html) developed from elastic after our requests because we have an issue on custom Korean Arirang, Mecab analyzers: I found the big issue on memory issue in the cluster)
+- Korean Analyzer called Analysis-Nori(https://www.elastic.co/guide/en/elasticsearch/plugins/current/analysis-nori.html) developed from elastic after our requests because we have an issue with custom Korean Arirang, Mecab analyzers: I found the big issue on memory issue in the cluster)
 - Design & Create Index about more than 4,000 index with settings & mappings and index template for the client requirements
 - Proper query implementation with Query DSL on Elasticsearch Cluster (https://github.com/euiyounghwang/GitHub_Guide)
 - Improve search relevance for client requirements with ranking weight
