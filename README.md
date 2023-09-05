@@ -103,7 +103,7 @@ Recently, I have been researching & implementing for search engine cluster monit
 - Monitoring all nodes in the cluster after creating the metrics from elasticsearch_exporter docker instance
 - See the metrics using elasticsearch exporter plugin after installing the library (http://localhost:9200/_prometheus/metrics)
  ![Alt text](image-8.png)
-```
+```python
  elasticsearch_exporter plugin
  ...
 # HELP es_jvm_mem_heap_max_bytes Maximum used memory in heap
