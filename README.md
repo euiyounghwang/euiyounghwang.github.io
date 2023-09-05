@@ -24,7 +24,7 @@ In FiscalNote (2022.07 ~ 2023.07), I contributed  to improve search relevance wi
 - Experience in building Elasticsearch cluster index configuration options, sharding, percolation,  ILM Configuration, and Elastic API Integration FN services (Query low latency, Index mapping changes with multilingual language, Redesign indexes mappings with dynamic templates)
 - Design & build an Elasticsearch-powered search service to allow users to search accurately on Omnisearch Service (Python, OAS API, Flask,  Conda, Vagrant, Docker, RabbitMQ, Postgres, Elasticsearch/Percolator cluster, Git, CircleCI)
 
-In particular, I remember that I have built and implemented for Enterprise Search Services for 7 years in South Korea and having a success story interview at the elastic on seoul conference(https://www.youtube.com/watch?v=qu0IXwi3Fq0). At that time, I participated in the Google search engine replacement project as project leader and senior software engineer. 
+In particular, I remember that I have built and implemented for Enterprise Search Services for 7 years in South Korea and having a success story interview at the elastic on seoul conference(https://www.youtube.com/watch?v=qu0IXwi3Fq0). At that time, I participated in the Google search engine replacement project(https://www.linkedin.com/pulse/elastic-tour-seoul-posco-ict-euiyoung-hwang/) as project leader and senior software engineer. 
 
 The screenshots attached below are for __<i>the Success Story with Elasticsearch Interview, Elastic on Seoul Conference, 2018</i>__ (https://www.elastic.co/customers/posco)
 when i worked as Senior Software Engineer & Search/Data Engineer at POSC ICT, South Korea 
