@@ -36,10 +36,10 @@ when i worked as Senior Software Engineer & Search/Data Engineer at POSC ICT, So
 - Korean Analyzer called Analysis-Nori(https://www.elastic.co/guide/en/elasticsearch/plugins/current/analysis-nori.html) developed from elastic after our requests because we have an issue with custom Korean Arirang, Mecab analyzers: I found the big issue on memory issue in the cluster)
 - Design & Create Index about more than 4,000 index with settings & mappings and index template for the client requirements
 - Proper query implementation with Query DSL on Elasticsearch Cluster (https://github.com/euiyounghwang/GitHub_Guide)
-- Improve search relevance for client requirements with ranking weight
 - Design & Develop a novel java library based on Apache Tika to extract full text from various of documents such as MS-OFFICE, HWP, PDF and Text Format (https://github.com/euiyounghwang/ES_Python_Project, https://github.com/euiyounghwang/DocumentsTextExtract)
  (Import java library into Python Environment for amounts of unstructured text indexing into ES cluster)
  ![Alt text](image-9.png)
+- Improve search relevance for client requirements with ranking weight
 
 if you want to watch the video, please go to this url (https://www.youtube.com/watch?v=qu0IXwi3Fq0) after set subtitled to English
 (I was in the middle of guys)
