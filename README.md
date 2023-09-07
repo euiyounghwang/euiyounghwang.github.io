@@ -31,7 +31,7 @@ when i worked as Senior Software Engineer & Search/Data Engineer at POSC ICT, So
 
 ![Alt text](image-6.png)
 
-- Handle with Elasticsearch 1.7.3 ~ 7.9.0 (Implement search service on entire version of Elaticsearch, gather all logs using Grok pattern using Logstash & Beat, Deploy Search Guard to ES cluster instead of X-Pack Shield)
+- Handle with Elasticsearch 1.7.3 ~ 7.9.0 (<iImplement search service on entire version of Elaticsearch, gather all logs using Grok pattern using Logstash & Beat, Deploy Search Guard to ES cluster instead of X-Pack Shield</i>)
 - 1'st Develop & Deploy the Elasticsearch with 24 Nodes (3 Masters. 2 clients, 19 Data Nodes) in South Korea - Monitoring with Spring Boot (https://github.com/euiyounghwang/Spring_Boot_Monitoring) instead of cerebro
 - Korean Analyzer called Analysis-Nori(https://www.elastic.co/guide/en/elasticsearch/plugins/current/analysis-nori.html) developed from elastic after our requests because we have an issue with custom Korean Arirang, Mecab analyzers: I found the big issue on memory issue in the cluster)
 - Design & Create Index about more than 4,000 index with settings & mappings and index template for the client requirements
