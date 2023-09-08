@@ -35,7 +35,7 @@ when i worked as Senior Software Engineer & Search/Data Engineer at POSC ICT, So
 - 1'st Develop & Deploy the Elasticsearch with 24 Nodes (3 Masters. 2 clients, 19 Data Nodes) in South Korea - Monitoring with Spring Boot (https://github.com/euiyounghwang/Spring_Boot_Monitoring) instead of cerebro
 - Korean Analyzer called Analysis-Nori(https://www.elastic.co/guide/en/elasticsearch/plugins/current/analysis-nori.html) developed from elastic after our requests because we have an issue with custom Korean Arirang, Mecab analyzers: I found the big issue on memory issue in the cluster)
 - Design & Develop a novel java library based on Apache Tika to extract full text from various of documents such as MS-OFFICE, HWP, PDF and Text Format (https://github.com/euiyounghwang/ES_Python_Project, https://github.com/euiyounghwang/DocumentsTextExtract)
- (<i>Import java library into Python Environment for the unstructure texts in order to index with meta datas into Elasticsearch</i>)
+ (<i>Import java library into Python Environment for the unstructure texts in order to extract texts & index with meta datas into Elasticsearch</i>)
  ![Alt text](image-9.png)
 - Improve search relevance for client requirements with ranking weight
 - Design & Create Index about more than 4,000 index with settings & mappings and index template for the client requirements
