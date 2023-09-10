@@ -9,8 +9,8 @@
 - Research, Develop and Deploy from Elasticsearch v1.7.3 ~ v7.9.X (Design, Develop and Deploy an  Elasticsearch Cluster between WAS and Data Feed application with DB and Documentum server for 7 years)
 - Build and Deploy Search-Guard Community Edition (https://docs.search-guard.com/latest/search-guard-versions) as free in order to replace Elasticsearch X-Pack under license policy using BASIC_AUTH
 - Interested with Elasticsearch v8 new features with Vectorized Search (https://github.com/euiyounghwang/semantic-search-elasticsearch-openai-langchain, https://github.com/euiyounghwang/python-fastapi-vector-search/tree/master __<i>using FAISS Model which means we use Facebook AI Similarity Search (FAISS) to efficiently search for similar text</i>__)
-![Alt text](image-12.png)
-![Alt text](image-15.png)
+![Alt text](screenshot/image-12.png)
+![Alt text](screenshot/image-15.png)
 - Elasticsearch 1’st Deploy & Go Live Expert (Production : Elasticsearch Cluster with 24 Nodes, Log Cluster with 8 Nodes)  in South Korea (https://www.elastic.co/customers/posco)
 - Search (Elasticsearch, Google Search Appliance) with Cluster, Design Index for Search, Restful API, Analyzer and Data Migration)
 - Big Data Analysis (Elasticsearch, Logstash, Beat, Redis, MongoDB, NoSQL)
@@ -31,14 +31,14 @@ In particular, I remember that I have been building and implementing 'Enterprise
 The screenshots attached below are for __<i>the Success Story with Elasticsearch Interview, Elastic on Seoul Conference, 2018</i>__ (https://www.elastic.co/customers/posco)
 when i worked as Senior Software Engineer & Search/Data Engineer at POSC ICT, South Korea (Received an award in POST ICT, 2016, https://media.licdn.com/dms/image/C512DAQGqaGMRMAXk9w/profile-treasury-image-shrink_1920_1920/0/1597560813194?e=1694487600&v=beta&t=sYbj3Kip8j_opHS_GB2ECOQ0FVhoiv16Jgsb2dxHp1M)
 
-![Alt text](image-6.png)
+![Alt text](screenshot/image-6.png)
 
 - Handle with Elasticsearch 1.7.3 ~ 7.9.0 (<i>Implement search service on entire version of Elaticsearch, gather all logs using Grok pattern using Logstash & Beat, Deploy Search Guard to ES cluster instead of X-Pack Shield</i>)
 - 1'st Develop & Deploy the Elasticsearch with 24 Nodes (3 Masters. 2 clients, 19 Data Nodes) in South Korea - Monitoring with Spring Boot (https://github.com/euiyounghwang/Spring_Boot_Monitoring) instead of cerebro
 - Korean Analyzer called Analysis-Nori(https://www.elastic.co/guide/en/elasticsearch/plugins/current/analysis-nori.html) developed from elastic after our requests because we have an issue with custom Korean Arirang, Mecab analyzers: I found the big issue on memory issue in the cluster)
 - Design & Develop a novel java library based on Apache Tika to extract full text from various of documents such as MS-OFFICE, HWP, PDF and Text Format (https://github.com/euiyounghwang/ES_Python_Project, https://github.com/euiyounghwang/DocumentsTextExtract)
  (<i>Import java library into Python Environment for the unstructure texts in order to extract texts & index with meta datas into Elasticsearch</i>)
- ![Alt text](image-9.png)
+ ![Alt text](screenshot/image-9.png)
 - Improve search relevance for client requirements with ranking weight
 - Design & Create Index about more than 4,000 index with settings & mappings and index template for the client requirements
 - Proper query implementation with Query DSL on Elasticsearch Cluster (https://github.com/euiyounghwang/GitHub_Guide)
@@ -46,7 +46,7 @@ when i worked as Senior Software Engineer & Search/Data Engineer at POSC ICT, So
 if you want to watch the video, please go to this url (https://www.youtube.com/watch?v=qu0IXwi3Fq0) after set subtitled to English
 (I was in the middle of guys)
 
-![Alt text](image-5.png)
+![Alt text](screenshot/image-5.png)
 
 Recently, I am personally implementing to Rest-Api Endpoint as test projects using python, flask/fastapi(https://github.com/euiyounghwang/python-fastapi-vector-search, https://github.com/euiyounghwang/python-flask-connexion-example-openapi3-master), and nestjs(https://github.com/euiyounghwang/nest-js-rest-api). The service allows you to search from a search engine (elasticsearch) and Postgres. It is also implemented based on Docker, and is being built, executed, and tested. Also I am interested with similary search such as huggingface embedding, vectorized search using Faiss and so on. (https://github.com/euiyounghwang/semantic-search-elasticsearch-openai-langchain)
 
@@ -92,20 +92,20 @@ components:
            default: ["*"]
     ..
 ```
-![Alt text](image.png)
+![Alt text](screenshot/image.png)
 
 #### <i>Docker in my local Environment</i>
-![Alt text](image-1.png)
+![Alt text](screenshot/image-1.png)
 
 Recently, I have been researching & implementing for search engine cluster monitoring and web application monitoring. In other words, we are testing to monitor search engines and restapi endpoints using prometheus and grafana. <i>Elasticsearch Prometheus Exporter is a builtin exporter from Elasticsearch to Prometheus. It collects all relevant metrics and makes them available to Prometheus via the Elasticsearch REST API</i>. This is an open source project - Cluster status, Node Status such as JVM, Indices, Circuit Breaker : the feature to prevent OOM occurrence
 
 #### <i>Prometheus (Build Docker on my local environment with Elasticsearch-Exporter/Python-Export/FastAPI Plugin to gather all relevant metrics)</i>
 - Monitoring all nodes in the cluster after installing prometheus-elasticsearch-exporter per each node (http://localhost:9191/targets?search=)
-![Alt text](image-2.png)
+![Alt text](screenshot/image-2.png)
 #### <i>Elasticsearch Cluster monitoring</i>
 - Monitoring all nodes in the cluster after creating the metrics from elasticsearch_exporter docker instance
 - See the metrics using elasticsearch exporter plugin after installing the library (http://localhost:9200/_prometheus/metrics)
- ![Alt text](image-8.png)
+ ![Alt text](screenshot/image-8.png)
 ```python
  elasticsearch_exporter plugin
  ...
@@ -132,7 +132,7 @@ es_index_indexing_delete_current_number{cluster="es-docker-cluster",index="test_
 ...
 ```
 
-![Alt text](image-4.png)
+![Alt text](screenshot/image-4.png)
 #### <i>Python Webservice monitoring</i>
 - Add prometheus library (https://pypi.org/project/prometheus-flask-exporter/) to track all endpoints into python-flask code using prometheus-flask-exporter
 - Monitoring Httprequest response, status of requests and so on
@@ -162,4 +162,4 @@ flask_http_request_duration_seconds_count{method="POST",path="/v1/basic/search",
 flask_http_request_duration_seconds_sum{method="POST",path="/v1/basic/search",status="200"} 0.11475991699990118
 ...
 ```
-![Alt text](image-3.png)
+![Alt text](screenshot/image-3.png)
