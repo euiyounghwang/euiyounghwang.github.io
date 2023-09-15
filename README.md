@@ -102,6 +102,21 @@ Recently, I have been researching & implementing for search engine cluster monit
 - Python Exporter (https://pypi.org/project/prometheus-flask-exporter/)
 - Node Exporter : The node_exporter is designed to monitor the host system. It's not recommended to deploy it as a Docker container because it requires access to the host system
 
+```
+  # My local environment to install node-exporter Docker instance
+  # docker run --rm -p 9100:9100 prom/node-exporter 
+  # docker compose up -d node-exporter
+  node_exporter:
+    # http://localhost:9100/metrics
+    image: prom/node-exporter
+    container_name: node_exporter
+    depends_on:
+      - prometheus
+    restart: always
+    ports:
+    - 9100:9100
+```
+
 #### <i>Prometheus (Build Docker on my local environment with Elasticsearch-Exporter/Python-Export/FastAPI Plugin to gather all relevant metrics)</i>
 - Monitoring all nodes in the cluster after installing prometheus-elasticsearch-exporter per each node (http://localhost:9191/targets?search=)
 ![Alt text](screenshot/image-2.png)
