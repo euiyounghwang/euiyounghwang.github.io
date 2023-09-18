@@ -22,7 +22,7 @@ I have ten years of experience in working with a modern search platform (Elastic
 <i>Especially, I am an expert in the Search Engine with a bunch of api from elasticsearch and rest_api environment using python flask, fastapi, docker … because I handled the entire version of ES from 1.7 up to 7.9 V. such as building ES cluster, handling index mappings with a lof of analyzers, resolving complex query based on domain needs, ILM configuration and so on</i>
 
 In FiscalNote (2022.07 ~ 2023.07), I contributed  to improve search relevance with complex queries such as func_score to adjust the weight to search results and  query performance with clusters. In more detail, I did the following:
-- Improve search performance with reconsider sharding strategy Elasticsearch in large clusters and measure the search quality across multiple platforms using my performance tuning scripts based on Python
+- Improve search performance with reconsider sharding strategy Elasticsearch in large clusters and measure the search quality across multiple platforms using my performance tuning scripts based on Python (e.g: https://github.com/euiyounghwang/euiyounghwang.github.io/blob/master/screenshot/SCR-20230917-v40.png)
 - Experience in building Elasticsearch cluster index configuration options, sharding, percolation,  ILM Configuration, and Elastic API Integration FN services (Query low latency, Index mapping changes with multilingual language, Redesign indexes mappings with dynamic templates)
 - Design & build an Elasticsearch-powered search service to allow users to search accurately on Omnisearch Service (Python, OAS API, Flask,  Conda, Vagrant, Docker, RabbitMQ, Postgres, Elasticsearch/Percolator cluster, Git, CircleCI)
 
