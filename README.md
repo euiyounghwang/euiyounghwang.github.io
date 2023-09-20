@@ -186,7 +186,7 @@ flask_http_request_duration_seconds_sum{method="POST",path="/v1/basic/search",st
 ![Alt text](screenshot/image-3.png)
 
 #### <i>Elastic Stack Monitoring</i>
-- Monitoring system metrics using Metribeat which is one of Elastic Stack from Prometheus tools
+- Monitoring system metrics to Prometheus tools using Metribeat which is one of Elastic Stack
 - Metricbeat is a lightweight shipper that you can install on your servers to periodically collect metrics from the operating system and from services running on the server
 ```
 wget https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-8.8.0-linux-arm64.tar.gz
