@@ -195,4 +195,45 @@ cd metricbeat-8.8.0-linux-arm64/
 ./metricbeat setup -e
 ./metricbeat -e
 ```
+![Alt text](./screenshot/Metricbeat-kibana.png)
+
+- Build a dashboard using Grafana (Metricbeat to Elasticsearch with all relevant metrics)
+```
+- Metricbeat Service Registry
+sudo cp /home/devuser/ES/metricbeat-8.8.0-linux-arm64/metricbeat  /usr/local/bin/metricbeat
+sudo chown devuser metricbeat.yml
+sudo chown devuser /usr/local/bin/
+
+/usr/local/bin/metricbeat -e --path.home=/home/devuser/ES/metricbeat-8.8.0-linux-arm64
+
+--
+sudo vi /etc/systemd/system/metricbeat.service
+
+[Unit]
+Description=Metricbeat Service
+After=multi-user.target
+
+[Service]
+Type=simple
+User=devuser
+Group=devuser
+WorkingDirectory=/home/devuser/ES/metricbeat-8.8.0-linux-arm64
+#ExecStart=/home/devuser/ES/metricbeat-8.8.0-linux-arm64b/start_metricbeat.sh
+ExecStart=/usr/local/bin/metricbeat -e --path.home=/home/devuser/ES/metricbeat-8.8.0-linux-arm64
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+
+-- Service Registry
+sudo systemctl daemon-reload
+# Autostart when rebooting
+sudo systemctl enable metricbeat.service
+# start to service
+sudo systemctl start metricbeat.service
+sudo systemctl status metricbeat.service
+
+-- Log check
+journalctl -u metricbeat.service
+```
 ![Alt text](./screenshot/Metricbeat-Prometheus.png)
