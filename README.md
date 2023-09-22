@@ -195,6 +195,7 @@ cd metricbeat-8.8.0-linux-arm64/
 ./metricbeat setup -e
 ./metricbeat -e
 ```
+![Alt text](./screenshot/Prometheus-Lucen-Query.png)
 ![Alt text](./screenshot/Metricbeat-kibana.png)
 
 - Build a dashboard using Grafana (Metricbeat to Elasticsearch with all relevant metrics)
