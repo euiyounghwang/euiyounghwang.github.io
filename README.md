@@ -99,6 +99,9 @@ components:
 
 Recently, I am testing to monitor search engines, restapi endpoints and other metrics using prometheus and grafana. <i>Elasticsearch Prometheus Exporter is a builtin exporter from Elasticsearch to Prometheus. It collects all relevant metrics and makes them available to Prometheus via the Elasticsearch REST API</i>. This is an open source project - Cluster status, Node Status such as JVM, Indices, Circuit Breaker : the feature to prevent OOM occurrence
 - Prometheus is an open-source monitoring system that collects metrics from your application and stores them in a time series database. It can be used to monitor the performance of your application and alert you when something goes wrong
+- The Alertmanager handles alerts sent by client applications such as the Prometheus server. Alerting with Prometheus is separated into two parts. Alerting rules in Prometheus servers send alerts to an Alertmanager. The Alertmanager then manages those alerts, including silencing, inhibition, aggregation and sending out notifications via methods such as email, on-call notification systems, and chat platforms.
+![Alt text](screenshot/Alertmanager-Slack.png)
+
 - Elasticserach Exporter : This is a builtin exporter from Elasticsearch to Prometheus. It collects all relevant metrics and makes them available to Prometheus via the Elasticsearch REST API. (https://github.com/vvanholl/elasticsearch-prometheus-exporter/)
 - Python Exporter (https://pypi.org/project/prometheus-flask-exporter/)
 - Node Exporter : The node_exporter is designed to monitor the host system. It's not recommended to deploy it as a Docker container because it requires access to the host system (https://github.com/prometheus/node_exporter/, https://github.com/prometheus/node_exporter/releases/download/v1.6.1/node_exporter-1.6.1.darwin-amd64.tar.gz)
