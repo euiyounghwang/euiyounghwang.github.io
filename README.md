@@ -102,7 +102,7 @@ Recently, I am testing to monitor search engines, restapi endpoints and other me
 ![Alt text](screenshot/Prometheus-Alert-Lists.png)
 Likewise, you can access Grafana and check the added rules in Alerting/Alert rules from the external alertmanager
 ![Alt text](screenshot/Grafana-Alertrules.png)
-- The Alertmanager handles alerts sent by client applications such as the Prometheus server. Alerting with Prometheus is separated into two parts. Alerting rules in Prometheus servers send alerts to an Alertmanager. The Alertmanager then manages those alerts, including silencing, inhibition, aggregation and sending out notifications via methods such as email, on-call notification systems, and chat platforms.
+- The Alertmanager(<i>http://localhost:9091/alerts?search, http://localhost:9093/#/alerts, http://localhost:9093/api/v2/alerts</i>) handles alerts sent by client applications such as the Prometheus server. Alerting with Prometheus is separated into two parts. Alerting rules in Prometheus servers send alerts to an Alertmanager. The Alertmanager then manages those alerts, including silencing, inhibition, aggregation and sending out notifications via methods such as email, on-call notification systems, and chat platforms.
 ```
 # Alertmanager Configuration
 alerting:
