@@ -102,7 +102,7 @@ Recently, I am testing to monitor search engines, restapi endpoints and other me
 ![Alt text](screenshot/Prometheus-Alert-Lists.png)
 Likewise, you can access Grafana and check the added rules in Alerting/Alert rules(<i>)http://localhost:3001/alerting/list</i> from the external alertmanager
 ![Alt text](screenshot/Grafana-Alertrules.png)
-- The Alertmanager(<i>http://localhost:9091/alerts?search, http://localhost:9093/#/alerts, http://localhost:9093/api/v2/alerts</i>) handles alerts sent by client applications such as the Prometheus server. Alerting with Prometheus is separated into two parts. Alerting rules in Prometheus servers send alerts to an Alertmanager. The Alertmanager then manages those alerts, including silencing, inhibition, aggregation and sending out notifications via methods such as email, chat platforms such as slack(<i>https://api.slack.com/apps</i>) and on-call notification systems.
+- The Alertmanager(<i>http://localhost:9091/alerts?search, http://localhost:9093/#/alerts, http://localhost:9093/api/v2/alerts</i>) handles alerts sent by client applications such as the Prometheus server. Alerting with Prometheus is separated into two parts. Alerting rules in Prometheus servers send alerts to an Alertmanager. 
 ```
 # Alertmanager Configuration
 alerting:
@@ -114,6 +114,7 @@ alerting:
 rule_files:
   - "/alertmanager/alert.rules"
 ```
+- The Alertmanager then manages those alerts, including silencing, inhibition, aggregation and sending out notifications via methods such as email, chat platforms such as slack(<i>https://api.slack.com/apps</i>) with created app and on-call notification systems.
 ![Alt text](screenshot/Alertmanager-Slack.png)
 - Elasticserach Exporter : This is a builtin exporter from Elasticsearch to Prometheus. It collects all relevant metrics and makes them available to Prometheus via the Elasticsearch REST API. (https://github.com/vvanholl/elasticsearch-prometheus-exporter/)
 - Python Exporter (https://pypi.org/project/prometheus-flask-exporter/)
