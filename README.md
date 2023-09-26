@@ -116,9 +116,23 @@ rule_files:
 ```
 - The Alertmanager then manages those alerts, including silencing, inhibition, aggregation and sending out notifications via methods such as email, chat platforms such as slack(<i>https://api.slack.com/apps</i>) with created app and on-call notification systems.
 ![Alt text](screenshot/Alertmanager-Slack.png)
-- Elasticserach Exporter : This is a builtin exporter from Elasticsearch to Prometheus. It collects all relevant metrics and makes them available to Prometheus via the Elasticsearch REST API. (https://github.com/vvanholl/elasticsearch-prometheus-exporter/)
+- Elasticserach Exporter : This is a builtin exporter from Elasticsearch to Prometheus. It collects all relevant metrics and makes them available to Prometheus via the Elasticsearch REST API. (https://github.com/vvanholl/elasticsearch-prometheus-exporter/, https://blog.naver.com/PostView.naver?blogId=whddbsml&logNo=222405287424)
 - Python Exporter (https://pypi.org/project/prometheus-flask-exporter/)
 - Node Exporter : The node_exporter is designed to monitor the host system. It's not recommended to deploy it as a Docker container because it requires access to the host system (https://github.com/prometheus/node_exporter/, https://github.com/prometheus/node_exporter/releases/download/v1.6.1/node_exporter-1.6.1.darwin-amd64.tar.gz)
+- RabbitMQ Exporter : Prometheus exporter for RabbitMQ metrics. Data is scraped by prometheus. You can install plugin promethus from RabbitMQ Plugin (https://www.rabbitmq.com/prometheus.html)
+```
+# Install Plugin
+/opt/homebrew/opt/rabbitmq/sbin/rabbitmq-plugins enable rabbitmq_prometheus
+brew services restart rabbitmq
+
+# Prometheus.yml
+- job_name: rabbitmq-exporter
+  scrape_interval: 10s
+  metrics_path: "/metrics"
+  static_configs:
+  - targets: ['host.docker.internal:15692']
+```
+
 
 ```
   # My local environment to install node-exporter Docker instance
