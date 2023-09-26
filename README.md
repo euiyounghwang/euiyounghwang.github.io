@@ -119,20 +119,6 @@ rule_files:
 - Elasticserach Exporter : This is a builtin exporter from Elasticsearch to Prometheus. It collects all relevant metrics and makes them available to Prometheus via the Elasticsearch REST API. (https://github.com/vvanholl/elasticsearch-prometheus-exporter/, https://blog.naver.com/PostView.naver?blogId=whddbsml&logNo=222405287424)
 - Python Exporter (https://pypi.org/project/prometheus-flask-exporter/)
 - Node Exporter : The node_exporter is designed to monitor the host system. It's not recommended to deploy it as a Docker container because it requires access to the host system (https://github.com/prometheus/node_exporter/, https://github.com/prometheus/node_exporter/releases/download/v1.6.1/node_exporter-1.6.1.darwin-amd64.tar.gz)
-- RabbitMQ Exporter : Prometheus exporter for RabbitMQ metrics. Data is scraped by prometheus. You can install plugin promethus from RabbitMQ Plugin (https://www.rabbitmq.com/prometheus.html)
-```
-# Install Plugin
-/opt/homebrew/opt/rabbitmq/sbin/rabbitmq-plugins enable rabbitmq_prometheus
-brew services restart rabbitmq
-
-# Prometheus.yml
-- job_name: rabbitmq-exporter
-  scrape_interval: 10s
-  metrics_path: "/metrics"
-  static_configs:
-  - targets: ['host.docker.internal:15692']
-```
-
 
 ```
   # My local environment to install node-exporter Docker instance
@@ -149,6 +135,19 @@ brew services restart rabbitmq
     - 9100:9100
 ```
 ![Alt text](./screenshot/image-node-exporter.png)
+- RabbitMQ Exporter : Prometheus exporter for RabbitMQ metrics. Data is scraped by prometheus. You can install plugin promethus from RabbitMQ Plugin (https://www.rabbitmq.com/prometheus.html)
+```
+# Install Plugin
+/opt/homebrew/opt/rabbitmq/sbin/rabbitmq-plugins enable rabbitmq_prometheus
+brew services restart rabbitmq
+
+# Prometheus.yml
+- job_name: rabbitmq-exporter
+  scrape_interval: 10s
+  metrics_path: "/metrics"
+  static_configs:
+  - targets: ['host.docker.internal:15692']
+```
 
 #### <i>Prometheus (Build Docker on my local environment with Elasticsearch-Exporter/Python-Export/FastAPI Plugin to gather all relevant metrics)</i>
 - Monitoring all nodes in the cluster after installing prometheus-elasticsearch-exporter per each node (http://localhost:9191/targets?search=)
