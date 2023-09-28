@@ -98,7 +98,7 @@ components:
 ![Alt text](screenshot/image-1.png)
 
 Recently, I am testing to monitor search engines, restapi endpoints and other metrics using prometheus and grafana. <i>Elasticsearch Prometheus Exporter is a builtin exporter from Elasticsearch to Prometheus. It collects all relevant metrics and makes them available to Prometheus via the Elasticsearch REST API</i>. This is an open source project - Cluster status, Node Status such as JVM, Indices, Circuit Breaker : the feature to prevent OOM occurrence
-- Prometheus is an open-source monitoring system that collects metrics from your application and stores them in a time series database. It can be used to monitor the performance of your application and alert you when something goes wrong
+- Prometheus (<i>https://prometheus.io/download/, https://yoo11052.tistory.com/201</i>) is an open-source monitoring system that collects metrics from your application and stores them in a time series database. It can be used to monitor the performance of your application and alert you when something goes wrong
 ![Alt text](screenshot/Prometheus-Alert-Lists.png)
 Likewise, you can access Grafana and check the added rules in Alerting/Alert rules(<i>)http://localhost:3001/alerting/list</i> from the external alertmanager
 ![Alt text](screenshot/Grafana-Alertrules.png)
