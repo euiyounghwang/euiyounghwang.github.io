@@ -6,7 +6,7 @@
 - __<i>Environment (Vagrant, Anaconda/Miniconda, Python VirtualEnv/.venv, Docker&Docker-Compose, Poetry, Github, CircleCI, AWS)</i>__
 - Programming (Python, Java, Flask, Flask/Rest-Flask/Fastapi:https://github.com/euiyounghwang/python-fastapi-vector-search, Flask-Connexion(https://github.com/euiyounghwang/python-flask-connexion-example-openapi3-master), Elasticsearch API, Databricks notebook, Google colab for implementation/testing AI model)
 ![Alt text](screenshot/image-13.png)
-- Research, Develop and Deploy from Elasticsearch v1.7.3 ~ v7.9.X (Design, Develop and Deploy an  Elasticsearch Cluster between WAS and Data Feed application with DB and Documentum server for 7 years)
+- Build, Develope and Deploy from Elasticsearch v1.7.3 ~ v7.9.X (Design, Develop and Deploy an  Elasticsearch Cluster between WAS and Data Feed application with DB and Documentum server with our Enterprise Search Service for 7 years)
 - Build and Deploy Search-Guard Community Edition (https://docs.search-guard.com/latest/search-guard-versions) as free in order to replace Elasticsearch X-Pack under license policy using BASIC_AUTH
 - Interested with Elasticsearch v8 new features with Vectorized Search (https://github.com/euiyounghwang/semantic-search-elasticsearch-openai-langchain, https://github.com/euiyounghwang/python-fastapi-vector-search/tree/master __<i>using FAISS Model which means we use Facebook AI Similarity Search (FAISS) to efficiently search for similar text</i>__)
 ![Alt text](screenshot/image-12.png)
@@ -16,7 +16,7 @@
 - Big Data Analysis (Elasticsearch, Logstash, Beat, Redis, MongoDB, NoSQL)
 - Machine Learning with Scikit-Learn, NumPy, Pandas, Doc2Vec, Wor2vec, FastText and Tensorflow (distilbert), Keras, Text-Mining and NLP(Natural Language Processing) with Python v 3.5 ~
 - Restful API (Socket, HTTP WebService with JSON based on Rest-Flask, Spring Boot Controller, Swagger UI API)
-- Project Leader & AI Engineer to <i>AI POS-ComplAi Project with AI Model based on Supervised Machine Learning Model</i> (News: http://bit.ly/2Ojc7Ij, https://www.donga.com/news/Economy/article/all/20200204/99522285/1, It requires to translate in English) in South Korea (In Addtion, I have implemented a text model to extract & look up the duplicated documents using Doc2Vec model - <i>Screenshot : https://github.com/euiyounghwang/ES_Python_Project/tree/master/Snapshot</i>)
+- Project Leader & AI Engineer for <i>AI POS-ComplAi Project with AI Model based on Supervised Machine Learning Model</i> (News: http://bit.ly/2Ojc7Ij, https://www.donga.com/news/Economy/article/all/20200204/99522285/1, It requires to translate in English) in South Korea (In Addtion, I have implemented a text model to extract & look up the duplicated documents using Doc2Vec model - <i>Screenshot : https://github.com/euiyounghwang/ES_Python_Project/tree/master/Snapshot</i>)
 
 I have ten years of experience in working with a modern search platform (Elasticsearch) and in building data pipelines(e.g https://github.com/euiyounghwang/python-search) & rest api services around it as a search engineer/senior software engineer. 
 <i>Especially, I am an expert in the Search Engine with a bunch of api from elasticsearch and rest_api environment using python flask, fastapi, docker … because I handled the entire version of ES from 1.7 up to 7.9 V. such as building ES cluster, handling index mappings with a lof of analyzers, resolving complex query based on domain needs, ILM configuration and so on</i>
