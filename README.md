@@ -217,8 +217,8 @@ flask_http_request_duration_seconds_sum{method="POST",path="/v1/basic/search",st
 ![Alt text](screenshot/image-3.png)
 
 #### <i>Elastic Stack Monitoring</i>
-- Monitoring system metrics to Prometheus tools using Metribeat which is one of Elastic Stack
 - Metricbeat is a lightweight shipper that you can install on your servers to periodically collect metrics from the operating system and from services running on the server
+- Monitoring system metrics to Prometheus or Kibana tools using Metribeat
 ```
 wget https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-8.8.0-linux-arm64.tar.gz
 tar -zxvf metricbeat-8.8.0-linux-arm64.tar.gz
@@ -234,7 +234,7 @@ cd metricbeat-8.8.0-linux-arm64/
 
 ![Alt text](./screenshot/Metricbeat-kibana.png)
 
-- Build a dashboard using Grafana (Metricbeat to Elasticsearch with all relevant metrics)
+- Build a dashboard using Grafana or Kibana like the above (Metricbeat to Elasticsearch with all relevant metrics)
 ```
 - Metricbeat Service Registry
 sudo cp /home/devuser/ES/metricbeat-8.8.0-linux-arm64/metricbeat  /usr/local/bin/metricbeat
