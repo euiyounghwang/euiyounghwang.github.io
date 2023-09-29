@@ -7,6 +7,7 @@
 - Programming (Python, Java, Flask, Flask/Rest-Flask/Fastapi:https://github.com/euiyounghwang/python-fastapi-vector-search, Flask-Connexion(https://github.com/euiyounghwang/python-flask-connexion-example-openapi3-master), Elasticsearch API, Databricks notebook, Google colab for implementation/testing AI model)
 ![Alt text](screenshot/image-13.png)
 - Build, Develope and Deploy from Elasticsearch v1.7.3 ~ v7.9.X (Design, Develop and Deploy an  Elasticsearch Cluster between WAS and Data Feed application with DB and Documentum server with our Enterprise Search Service for 7 years)
+- Implementation 'Ingest Application" to collect the dataset from the different types of source such as Oracle, Postgres, Web contents and other sources using Java, Python
 - Build and Deploy Search-Guard Community Edition (https://docs.search-guard.com/latest/search-guard-versions) as free in order to replace Elasticsearch X-Pack under license policy using BASIC_AUTH
 - Interested with Elasticsearch v8 new features with Vectorized Search (https://github.com/euiyounghwang/semantic-search-elasticsearch-openai-langchain, https://github.com/euiyounghwang/python-fastapi-vector-search/tree/master __<i>using FAISS Model which means we use Facebook AI Similarity Search (FAISS) to efficiently search for similar text</i>__)
 ![Alt text](screenshot/image-12.png)
