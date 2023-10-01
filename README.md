@@ -119,6 +119,11 @@ rule_files:
 ```
 - The Alertmanager then manages those alerts, including silencing, inhibition, aggregation and sending out notifications via methods such as email, chat platforms such as slack(<i>https://api.slack.com/apps</i>) with created app and on-call notification systems.
 ![Alt text](screenshot/Alertmanager-Slack.png)
+- Alert rules are defined in Prometheus configuration. Prometheus just scrapes (pull) metrics from its client application(the Node Exporter). However, if any alert condition hits, Prometheus pushes it to the AlertManager which manages the alerts through its pipeline of silencing, inhibition, grouping and sending out notifications.
+- Here is a basic architecture of Alertmanager with Prometheus (https://medium.com/devops-dudes/prometheus-alerting-with-alertmanager-e1bbba8e6a8e)
+![Alt text](screenshot/AlertManager-Architecture.png)
+- This configuration is based on the architecture described below :
+![Alt text](screenshot/AlertManager-Installation.png)
 - Elasticserach Exporter : This is a builtin exporter from Elasticsearch to Prometheus. It collects all relevant metrics and makes them available to Prometheus via the Elasticsearch REST API. (https://github.com/vvanholl/elasticsearch-prometheus-exporter/, https://blog.naver.com/PostView.naver?blogId=whddbsml&logNo=222405287424)
 - Python Exporter (https://pypi.org/project/prometheus-flask-exporter/)
 - Node Exporter : The node_exporter is designed to monitor the host system. It's not recommended to deploy it as a Docker container because it requires access to the host system (https://github.com/prometheus/node_exporter/, https://github.com/prometheus/node_exporter/releases/download/v1.6.1/node_exporter-1.6.1.darwin-amd64.tar.gz)
