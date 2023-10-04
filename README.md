@@ -9,7 +9,7 @@
 - Build, Develope and Deploy from Elasticsearch v1.7.3 ~ v7.9.X (Design, Develop and Deploy an  Elasticsearch Cluster between WAS and Data Feed application with DB and Documentum server with our Enterprise Search Service for 7 years)
 - Implementation 'Ingest Application" to collect the dataset from the different types of source such as Oracle, Postgres, Web contents and other sources using Java, Python
 - Build and Deploy Search-Guard Community Edition (https://docs.search-guard.com/latest/search-guard-versions) as free in order to replace Elasticsearch X-Pack under license policy using BASIC_AUTH
-- Build REST API Services based on Flask, Fastapi Web Framework, AI model and Spring Boot as backend services
+- Build REST API Services based on Flask, Fastapi Web Framework, AI model such as Text Classification using Superviesed Model(FastText, Logistic Regression, SVM, KNN), Similarity Search using Doc2Vec Model and Spring Boot as backend services
 - Interested with Elasticsearch v8 new features with Vectorized Search (https://github.com/euiyounghwang/semantic-search-elasticsearch-openai-langchain, https://github.com/euiyounghwang/python-fastapi-vector-search/tree/master __<i>using FAISS Model which means we use Facebook AI Similarity Search (FAISS) to efficiently search for similar text</i>__)
 ![Alt text](screenshot/image-12.png)
 ![Alt text](screenshot/image-15.png)
