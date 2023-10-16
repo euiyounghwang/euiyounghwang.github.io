@@ -2,7 +2,7 @@
 
 #### Euiyoung Hwang (marieuig@gmail.com) / Linkedin(https://www.linkedin.com/in/euiyoung-hwang/) : Search, Data & AI Software Engineer
 
-- __<i>Tools (Pycharm, Eclipse, Postman, VS Code, ELK, Jupyter, Databricks, Datadog, Grafana, Cerebro, Prometheus, AlertManager with Slack alert, Postgres, Oracle, Redis, RabbitMQ, Apache Tomcat, Bonsai for Elasticsearch Cluster, Google Search Appliance, Jira/Confluence)</i>__
+- __<i>Tools (Pycharm, Eclipse, Postman, VS Code, ELK, Jupyter, Databricks, Datadog, Grafana, Cerebro, Prometheus, AlertManager with Slack alert, Postgres, Oracle, Redis, RabbitMQ, Apache Tomcat, Javascript/Jquery, HTML, CSS, XML/JSON, Bonsai for Elasticsearch Cluster, Google Search Appliance, Jira/Confluence)</i>__
 - __<i>Environment (Vagrant, Anaconda/Miniconda, Python VirtualEnv/.venv, Docker&Docker-Compose, Poetry, Github, CircleCI, AWS)</i>__
 - Programming (Python, Java, Flask, Flask/Rest-Flask/Fastapi:https://github.com/euiyounghwang/python-fastapi-vector-search, Flask-Connexion(https://github.com/euiyounghwang/python-flask-connexion-example-openapi3-master), Elasticsearch API, Databricks notebook, Google colab for implementation/testing AI model)
 ![Alt text](screenshot/image-13.png)
