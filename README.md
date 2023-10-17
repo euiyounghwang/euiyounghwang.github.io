@@ -4,9 +4,9 @@
 
 - __<i>Tools (Pycharm, Eclipse, Postman, VS Code, ELK, Jupyter, Databricks, Datadog, Grafana, Cerebro, Prometheus, AlertManager with Slack alert, Postgres, Oracle, Redis, RabbitMQ, Apache Tomcat, Javascript/Jquery, HTML, CSS, XML/JSON, Bonsai for Elasticsearch Cluster, Google Search Appliance, Jira/Confluence)</i>__
 - __<i>Environment (Vagrant, Anaconda/Miniconda, Python VirtualEnv/.venv, Docker&Docker-Compose, Poetry, Github, CircleCI, AWS)</i>__
-- Programming (Python, Java, Flask, Flask/Rest-Flask/Fastapi:https://github.com/euiyounghwang/python-fastapi-vector-search, Flask-Connexion(https://github.com/euiyounghwang/python-flask-connexion-example-openapi3-master), Elasticsearch API, Databricks notebook, Google colab for implementation/testing AI model), Web Stack(Javascript/Jquery, HTML, CSS, XML, ASP)
+- Programming : Python, Java, Flask, Flask/Rest-Flask/Fastapi:https://github.com/euiyounghwang/python-fastapi-vector-search, Flask-Connexion(https://github.com/euiyounghwang/python-flask-connexion-example-openapi3-master), Elasticsearch API, Databricks notebook, Google colab for implementation/testing AI model), Web Stack(Javascript/Jquery, HTML, CSS, XML, ASP
 ![Alt text](screenshot/image-13.png)
-- I am studying for building Django & Django REST Framework (DRF) with Poetry dependency management and Python Virtual Enviroment
+- I am studying for building Django & Django REST Framework (DRF) (<i>https://github.com/euiyounghwang/python-django/tree/master</i>)with Poetry dependency management and Python Virtual Enviroment
 - Build, Develope and Deploy from Elasticsearch v1.7.3 ~ v7.9.X (Design, Develop and Deploy an  Elasticsearch Cluster between WAS and Data Feed application with DB and Documentum server with our Enterprise Search Service for 7 years)
 - Implementation 'Ingest Application" to collect the dataset from the different types of source such as Oracle, Postgres, Web contents and other sources using Java, Python
 - Build and Deploy Search-Guard Community Edition (https://docs.search-guard.com/latest/search-guard-versions) as free in order to replace Elasticsearch X-Pack under license policy using BASIC_AUTH
