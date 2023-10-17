@@ -4,8 +4,9 @@
 
 - __<i>Tools (Pycharm, Eclipse, Postman, VS Code, ELK, Jupyter, Databricks, Datadog, Grafana, Cerebro, Prometheus, AlertManager with Slack alert, Postgres, Oracle, Redis, RabbitMQ, Apache Tomcat, Javascript/Jquery, HTML, CSS, XML/JSON, Bonsai for Elasticsearch Cluster, Google Search Appliance, Jira/Confluence)</i>__
 - __<i>Environment (Vagrant, Anaconda/Miniconda, Python VirtualEnv/.venv, Docker&Docker-Compose, Poetry, Github, CircleCI, AWS)</i>__
-- Programming (Python, Java, Flask, Flask/Rest-Flask/Fastapi:https://github.com/euiyounghwang/python-fastapi-vector-search, Flask-Connexion(https://github.com/euiyounghwang/python-flask-connexion-example-openapi3-master), Elasticsearch API, Databricks notebook, Google colab for implementation/testing AI model)
+- Programming (Python, Java, Flask, Flask/Rest-Flask/Fastapi:https://github.com/euiyounghwang/python-fastapi-vector-search, Flask-Connexion(https://github.com/euiyounghwang/python-flask-connexion-example-openapi3-master), Elasticsearch API, Databricks notebook, Google colab for implementation/testing AI model), Web Stack(Javascript/Jquery, HTML, CSS, XML, ASP)
 ![Alt text](screenshot/image-13.png)
+- I am studying for building Django & Django REST Framework (DRF) with Poetry dependency management and Python Virtual Enviroment
 - Build, Develope and Deploy from Elasticsearch v1.7.3 ~ v7.9.X (Design, Develop and Deploy an  Elasticsearch Cluster between WAS and Data Feed application with DB and Documentum server with our Enterprise Search Service for 7 years)
 - Implementation 'Ingest Application" to collect the dataset from the different types of source such as Oracle, Postgres, Web contents and other sources using Java, Python
 - Build and Deploy Search-Guard Community Edition (https://docs.search-guard.com/latest/search-guard-versions) as free in order to replace Elasticsearch X-Pack under license policy using BASIC_AUTH
@@ -17,7 +18,7 @@
 - Search (Elasticsearch, Google Search Appliance) with Cluster, Design Index for Search, Restful API, Analyzer and Data Migration)
 - Big Data Analysis (Elasticsearch, Logstash, Beat, Redis, MongoDB, NoSQL)
 - Machine Learning with Scikit-Learn, NumPy, Pandas, Doc2Vec, Wor2vec, FastText and Tensorflow (distilbert), Keras, Text-Mining and NLP(Natural Language Processing) with Python v 3.5 ~
-- Restful API (Socket, HTTP WebService with JSON based on Rest-Flask, Spring Boot Controller, Swagger UI API)
+- Restful API (Socket, HTTP WebService with JSON based on Rest-Flask, Spring Boot MVC Architecture, Swagger UI API)
 - Project Leader & AI Engineer for <i>AI POS-ComplAi Project with AI Model based on Supervised Machine Learning Model</i> (News: http://bit.ly/2Ojc7Ij, https://www.donga.com/news/Economy/article/all/20200204/99522285/1, It requires to translate in English) in South Korea (In Addtion, I have implemented a text model to extract & look up the duplicated documents using Doc2Vec model - <i>Screenshot : https://github.com/euiyounghwang/ES_Python_Project/tree/master/Snapshot</i>)
 
 I have ten years of experience in working with a modern search platform (Elasticsearch) and in building data pipelines(e.g https://github.com/euiyounghwang/python-search) & rest api services around it as a search engineer/senior software engineer. 
