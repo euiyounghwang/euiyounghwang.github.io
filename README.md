@@ -32,26 +32,26 @@ In FiscalNote (2022.07 ~ 2023.07), I contributed  to improve search relevance wi
 In particular, I remember that I have been building and implementing 'Enterprise Search Services' for seven years based on Elasticsearch in South Korea. As a result of my contributions that I was having a success story interview at the elastic on seoul conference(https://www.youtube.com/watch?v=qu0IXwi3Fq0). At that time, I participated in the Google search engine replacement project(https://www.linkedin.com/pulse/elastic-tour-seoul-posco-ict-euiyoung-hwang/) as project leader and senior software engineer. 
 
 The screenshots attached below are for __<i>the Success Story with Elasticsearch Interview, Elastic on Seoul Conference, 2018</i>__ (https://www.elastic.co/customers/posco)
-when i worked as Senior Software Engineer & Search/Data Engineer at POSC ICT, South Korea (Received an award in POST ICT, 2016, https://media.licdn.com/dms/image/C512DAQGqaGMRMAXk9w/profile-treasury-image-shrink_1920_1920/0/1597560813194?e=1694487600&v=beta&t=sYbj3Kip8j_opHS_GB2ECOQ0FVhoiv16Jgsb2dxHp1M)
+when i worked as Senior Software Engineer & Search/Data Engineer at POSC ICT, South Korea (Received an award in POST ICT, 2016, <i>https://media.licdn.com/dms/image/C512DAQGqaGMRMAXk9w/profile-treasury-image-shrink_1920_1920/0/1597560813194?e=1694487600&v=beta&t=sYbj3Kip8j_opHS_GB2ECOQ0FVhoiv16Jgsb2dxHp1M</i>)
 
 ![Alt text](screenshot/image-6.png)
 
 - Handle with Elasticsearch 1.7.3 ~ 7.9.0 (<i>Implement search service on entire version of Elaticsearch, gather all logs using Grok pattern using Logstash & Beat, Deploy Search Guard to ES cluster instead of X-Pack Shield</i>)
-- 1'st Develop & Deploy the Elasticsearch with 24 Nodes (3 Masters. 2 clients, 19 Data Nodes) in South Korea - Monitoring with Spring Boot (https://github.com/euiyounghwang/Spring_Boot_Monitoring) instead of cerebro
-- Korean Analyzer called Analysis-Nori(https://www.elastic.co/guide/en/elasticsearch/plugins/current/analysis-nori.html) developed from elastic after our requests because we have an issue with custom Korean Arirang, Mecab analyzers: I found the big issue on memory issue in the cluster)
-- Design & Develop a novel java library based on Apache Tika to extract full text from various of documents such as MS-OFFICE, HWP, PDF and Text Format (https://github.com/euiyounghwang/ES_Python_Project, https://github.com/euiyounghwang/DocumentsTextExtract)
+- 1'st Develop & Deploy the Elasticsearch with 24 Nodes (3 Masters. 2 clients, 19 Data Nodes) in South Korea - Monitoring with Spring Boot (<i>https://github.com/euiyounghwang/Spring_Boot_Monitoring</i>) instead of cerebro
+- Korean Analyzer called Analysis-Nori(<i>https://www.elastic.co/guide/en/elasticsearch/plugins/current/analysis-nori.html</i>) developed from elastic after our requests because we have an issue with custom Korean Arirang, Mecab analyzers: I found the big issue on memory issue in the cluster)
+- Design & Develop a novel java library based on Apache Tika to extract full text from various of documents such as MS-OFFICE, HWP, PDF and Text Format (<i>https://github.com/euiyounghwang/ES_Python_Project, https://github.com/euiyounghwang/DocumentsTextExtract</i>)
  (<i>Import java library into Python Environment for the unstructure texts in order to extract texts & index with meta datas into Elasticsearch</i>)
  ![Alt text](screenshot/image-9.png)
 - Improve search relevance for client requirements with ranking weight
 - Design & Create Index about more than 4,000 index with settings & mappings and index template for the client requirements
-- Proper query implementation with Query DSL on Elasticsearch Cluster (https://github.com/euiyounghwang/GitHub_Guide)
+- Proper query implementation with Query DSL on Elasticsearch Cluster (<i>https://github.com/euiyounghwang/GitHub_Guide</i>)
 
-if you want to watch the video, please go to this url (https://www.youtube.com/watch?v=qu0IXwi3Fq0) after set subtitled to English
+if you want to watch the video, please go to this url (<i>https://www.youtube.com/watch?v=qu0IXwi3Fq0</i>) after set subtitled to English
 (I was in the middle of guys)
 
 ![Alt text](screenshot/image-5.png)
 
-Recently, I am personally implementing to Rest-Api Endpoint as test projects using python, flask/fastapi(https://github.com/euiyounghwang/python-fastapi-vector-search, https://github.com/euiyounghwang/python-flask-connexion-example-openapi3-master), and nestjs(https://github.com/euiyounghwang/nest-js-rest-api). The service allows you to search from a search engine (elasticsearch) and Postgres. It is also implemented based on Docker, and is being built, executed, and tested. Also I am interested with similary search such as huggingface embedding, vectorized search using Faiss and so on. (https://github.com/euiyounghwang/semantic-search-elasticsearch-openai-langchain)
+Recently, I am personally implementing to Rest-Api Endpoint as test projects using python, flask/fastapi(<i>https://github.com/euiyounghwang/python-fastapi-vector-search, https://github.com/euiyounghwang/python-flask-connexion-example-openapi3-master</i>), and nestjs(<i>https://github.com/euiyounghwang/nest-js-rest-api</i>). The service allows you to search from a search engine (elasticsearch) and Postgres. It is also implemented based on Docker, and is being built, executed, and tested. Also I am interested with similary search such as huggingface embedding, vectorized search using Faiss and so on. (<i>https://github.com/euiyounghwang/semantic-search-elasticsearch-openai-langchain</i>)
 
 #### <i>Rest-API on OPEN API Specifiation(Swagger)</i>
 ```yml
