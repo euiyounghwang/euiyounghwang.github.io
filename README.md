@@ -1,20 +1,12 @@
 # euiyounghwang.github.io
 
 #### Euiyoung Hwang (marieuig@gmail.com) / Linkedin(https://www.linkedin.com/in/euiyoung-hwang/) : Search, Data & AI Software Engineer
-### __<i>Certification/Learning Course__ 
-- ELASTICSEARCH DEVELOPER II, San Francisco, USA, 
-- CORE ELASTICSEARCH: DEVELOPER, San Francisco, USA, 
-- CORE ELASTICSEARCH: OPERATIONS, San Francisco, USA, 
-- SAS@Data Scientist, South Korea, 
-- Search: Advanced Deployments (Part 3), Taiwan, 
-- Google Apps Partner Training Apps200 - Technical Bootcamp, South Korea
-- Google Apps Partner Training Apps200 - Technical Bootcamp, South Korea
-- Google, Microsoft Certified Application Developer (MCAD) .NET, Microsoft Certified Professional (MCP)
-</i>
-
 
 - __<i>Tools (Pycharm, Eclipse, Postman, Spring Boot, VS Code, ELK, Jupyter, Databricks, Datadog, Grafana, Cerebro, Prometheus, AlertManager with Slack alert, Oracle, MongoDB, Postgres, Redis, RabbitMQ, Apache Tomcat, Javascript/Jquery, HTML, CSS, XML/JSON, Bonsai for Elasticsearch Cluster, Google Search Appliance, Jira/Confluence)</i>__
 - __<i>Environment (Vagrant, Anaconda/Miniconda, Python VirtualEnv/.venv, Docker&Docker-Compose, Poetry, Github, CircleCI, AWS)</i>__
+- __<i>Certification/Learning Course__ : ELASTICSEARCH DEVELOPER II, San Francisco, USA, CORE ELASTICSEARCH: DEVELOPER, San Francisco, USA, CORE ELASTICSEARCH: OPERATIONS, San Francisco, USA, SAS@Data Scientist, South Korea, Search: Advanced Deployments (Part 3), Taiwan, 
+Google Apps Partner Training Apps200 - Technical Bootcamp, South KoreaGoogle Apps Partner Training Apps200 - Technical Bootcamp, South Korea
+Google, Microsoft Certified Application Developer (MCAD) .NET, Microsoft Certified Professional (MCP)</i>
 - Programming : Python, Java, Flask, Flask/Rest-Flask/Fastapi:<i>https://github.com/euiyounghwang/python-fastapi-vector-search</i>, Flask-Connexion(<i>https://github.com/euiyounghwang/python-flask-connexion-example-openapi3-master</i>) with Docker&Docker-Compose, Elasticsearch API, Databricks notebook, Google colab for implementation/testing AI model), Web Stack(Javascript/Jquery, HTML, CSS, XML, ASP)
 ![Alt text](screenshot/image-13.png)
 - I am studying for building Django & Django REST Framework (DRF) (<i>https://github.com/euiyounghwang/python-django/tree/master</i>)with Poetry dependency management and Python Virtual Enviroment
