@@ -3,7 +3,7 @@
 #### Euiyoung Hwang (marieuig@gmail.com) / Linkedin(https://www.linkedin.com/in/euiyoung-hwang/) : Search, Data & AI Software Engineer
 
 - __<i>Tools (Pycharm, Eclipse, Postman, Spring Boot, VS Code, ELK, Jupyter, Databricks, Datadog, Grafana, Cerebro, Prometheus, AlertManager with Slack alert, Oracle, MongoDB, Postgres, Redis, RabbitMQ, Apache Tomcat, Javascript/Jquery, HTML, CSS, XML/JSON, Bonsai for Elasticsearch Cluster, Google Search Appliance, Jira/Confluence)</i>__
-- __<i>Environment (Vagrant, Anaconda/Miniconda, Python VirtualEnv/.venv, Docker&Docker-Compose, Poetry, Github, CircleCI, AWS)</i>__
+- __<i>Environment (Vagrant, Anaconda/Miniconda, Python VirtualEnv/.venv, Docker&Docker-Compose, Poetry, Github, Bash Script, CircleCI, AWS)</i>__
 - __<i>Programming : Python Web Stacks(Flask, FastAPI, Django) - <i>https://github.com/euiyounghwang/python-fastapi-vector-search</i>, Flask-Connexion(<i>https://github.com/euiyounghwang/python-flask-connexion-example-openapi3-master</i>) with Docker&Docker-Compose, Elasticsearch API, Databricks notebook, Java, Spring Boot, Google colab for implementation/testing AI model), Web Stack(Javascript/Jquery, HTML, CSS, XML, ASP), Socket Programming(TCP/UDP)
 ![Alt text](screenshot/image-13.png)</i>__
 - __<i>Certification/Learning Courses__ : `ELASTICSEARCH DEVELOPER II, San Francisco, USA, CORE ELASTICSEARCH: DEVELOPER, San Francisco, USA, CORE ELASTICSEARCH: OPERATIONS, San Francisco, USA`, SAS@Data Scientist, South Korea, Search: Advanced Deployments (Part 3), Taiwan, 
