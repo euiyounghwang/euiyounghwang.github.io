@@ -10,7 +10,8 @@
 Google Apps Partner Training Apps200 - Technical Bootcamp, South KoreaGoogle Apps Partner Training Apps200 - Technical Bootcamp, South Korea
 Google, Microsoft Certified Application Developer (MCAD) .NET, Microsoft Certified Professional (MCP)</i>
 - Building Django & Django REST Framework (DRF, Swagger with `'drf_yasg'`) with Poetry dependency management and Python Virtual Enviroment by using Postgres & Elasticsearch : <i>REST API for DB model with CRUD, REST API & Frontend (<i>https://github.com/euiyounghwang/python-django/blob/master/screenshots/Django-rest_ui-search.png</i>) with template for search results</i>, unit tests for elasticsearch query, rest_api for Postgres, Redis, Elasticsearch using pytest-django (<i>https://github.com/euiyounghwang/python-django/tree/master</i>)
-![Alt text](screenshot/Django-REST-API.png)
+ 
+  ![Alt text](screenshot/Django-REST-API.png)
 - Build, Develope and Deploy from Elasticsearch v1.7.3 ~ v7.9.X (Design, Develop and Deploy an  Elasticsearch Cluster between WAS and Data Feed application with DB and Documentum server with our Enterprise Search Service for 7 years)
 - Implementation 'Ingest Application' to collect the dataset from the different types of source such as Oracle, Postgres, Web contents and other sources for BatchJob using Java, Python
 - Build and Deploy Search-Guard Community Edition (<i>https://docs.search-guard.com/latest/search-guard-versions</i>) as free in order to replace Elasticsearch X-Pack under license policy using BASIC_AUTH
