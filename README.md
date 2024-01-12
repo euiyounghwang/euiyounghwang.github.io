@@ -8,7 +8,7 @@
 ![Alt text](screenshot/image-13.png)</i>
 <i>Python Project(FastAPI enviroment) based on Search Engine such as Elasticsearch/Opensearch including docker, pytest, search api service, shell scripts for elasticsearch/opensearch cluster and performance test environment (https://github.com/euiyounghwang/python-search_engine</i>)
 - __<i>Certification/Learning Courses__ : `ELASTICSEARCH DEVELOPER II, San Francisco, USA, CORE ELASTICSEARCH: DEVELOPER, San Francisco, USA, CORE ELASTICSEARCH: OPERATIONS, San Francisco, USA`, SAS@Data Scientist, South Korea, Search: Advanced Deployments (Part 3), Taiwan, 
-Google Apps Partner Training Apps200 - Technical Bootcamp, South KoreaGoogle Apps Partner Training Apps200 - Technical Bootcamp, South Korea
+Google Apps Partner Training Apps200 - Technical Bootcamp, South Korea, Google Apps Partner Training Apps200 - Technical Bootcamp, South Korea
 Google, Microsoft Certified Application Developer (MCAD) .NET, Microsoft Certified Professional (MCP)</i>
 - Building Django & Django REST Framework (DRF, Swagger with `'drf_yasg'`) with Poetry dependency management and Python Virtual Enviroment by using Postgres & Elasticsearch : <i>REST API for DB model with CRUD, REST API & Frontend (<i>https://github.com/euiyounghwang/python-django/blob/master/screenshots/Django-rest_ui-search.png</i>) with template for search results</i>, unit tests for elasticsearch query, rest_api for Postgres, Redis, Elasticsearch using pytest-django, Ingestion Script for Database with Postgres, Mongodb, <i>Push Docker image into DockerHub with my account after running on CircleCi</i> (Repo : <i>https://github.com/euiyounghwang/python-django/tree/master</i>)
   ![Alt text](screenshot/Django-REST-API.png)
