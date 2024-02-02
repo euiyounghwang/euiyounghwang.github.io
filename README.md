@@ -1,6 +1,6 @@
 # Euiyoung Hwang's Profile
 
-__<i>#### Euiyoung Hwang (marieuig@gmail.com) / Linkedin(https://www.linkedin.com/in/euiyoung-hwang/) : Search, Data & AI Software Engineer</i>
+__<i>Euiyoung Hwang (marieuig@gmail.com) / Linkedin(https://www.linkedin.com/in/euiyoung-hwang/) : Search, Data & AI Software Engineer</i>__
 
 - __<i>Tools (Pycharm, Eclipse, Postman, Spring Boot, VS Code, ELK, Apache Kafka, Apache Tika, Jupyter, Databricks, Datadog, Grafana, Cerebro, Prometheus, AlertManager with Slack alert, Oracle, MongoDB, Postgres, Redis, RabbitMQ, Apache Tomcat, Bonsai for Elasticsearch/Opensearch Cluster, Kibana/Opensearch-dashboard, Jupyter, Google Colab for testing the AI model, Google Search Appliance, Bash Shell, Jira/Confluence, Postman/Insomnia for validating Restful API, K9s for kubernetis, Docker/Docker-Compose (i.e Docker with Search Engine - <i>https://github.com/euiyounghwang/python-search_engine/blob/master/docker-compose.yml</i>), DockerHub with my account)</i>__
 - <i>__Environment__ (Vagrant, Anaconda/Miniconda, Python VirtualEnv/.venv, Golang Env, Docker&Docker-Compose, Poetry, Github, Bash Script, CircleCI, Amazon Web Serivice)</i>
