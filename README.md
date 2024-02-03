@@ -23,8 +23,8 @@ Google, __Microsoft Certified Application Developer (MCAD) .NET, Microsoft Certi
 ![Alt text](screenshot/image-12.png)
 ![Alt text](screenshot/image-15.png)
 - Elasticsearch 1’st Deploy & Go Live Expert (Production : Elasticsearch Cluster with 24 Nodes, Log Cluster with 8 Nodes)  in South Korea (<i>https://www.elastic.co/customers/posco</i>)
-- Search (Elasticsearch, Google Search Appliance) with Cluster, Design Index for Search, Restful API, Analyzer and Data Migration)
-- Big Data Analysis (Elasticsearch, Logstash, Beat, Redis, MongoDB, NoSQL, Apache Kafka, RabbitMQ, Databrick)
+- Search (Elasticsearch/Opensearch, Google Search Appliance) with Cluster, Design Index for Search, Restful API, Analyzer and Data Migration)
+- Big Data Analysis (Elasticsearch/Opensearch, Logstash, Beat, Redis, MongoDB, NoSQL, Apache Kafka, RabbitMQ, Databrick)
 - Machine Learning with Scikit-Learn, NumPy, Pandas, Doc2Vec, Wor2vec, FastText and Tensorflow (distilbert), Keras, Text-Mining and NLP(Natural Language Processing) with Python v 3.5 ~
 - Restful API (Socket, HTTP WebService with JSON based on Rest-Flask, Spring Boot MVC Architecture, Swagger UI API)
 - Project Leader & AI Engineer for <i>AI POS-ComplAi Project with AI Model based on Supervised Machine Learning Model</i> (News: <i>http://bit.ly/2Ojc7Ij, https://www.donga.com/news/Economy/article/all/20200204/99522285/1</i>, It requires to translate in English) in South Korea (In Addtion, I have implemented a text model to extract & look up the duplicated documents using Doc2Vec model - <i>Screenshot : https://github.com/euiyounghwang/ES_Python_Project/tree/master/Snapshot</i>)
